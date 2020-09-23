@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(205,245,218);
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
