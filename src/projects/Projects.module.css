@@ -1,0 +1,24 @@
+.projectsBlock {
+    background-color: rgb(237, 183, 224);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1040px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -4,7 +4,7 @@ import styleContainer from '../common/styles/Container.module.css';
 
 function Main() {
     return (
-        <div className={styles.main}>
+        <div className={`${styles.main} ${styleContainer.containerOutside}`}>
             <div className={`${styles.container} ${styleContainer.container}`}>
                 <div className={styles.text}>
                     <span>Hi there</span>
