@@ -1,0 +1,8 @@
+.remote{
+    background-color: rgb(163, 83, 222);
+}
+
+.container{
+    flex-direction: column;
+    height: 200px;
+}

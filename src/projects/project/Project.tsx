@@ -8,6 +8,7 @@ function Project(props: IProjectType) {
     return (
         <div className={styles.project}>
             <div className={styles.image}>
+                Hover me
                 <div className={styles.icon}>Link</div>
             </div>
             <div className={styles.project__about}>
